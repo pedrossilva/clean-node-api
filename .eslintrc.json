@@ -3,8 +3,11 @@
     "parserOptions": {
         "project": "./tsconfig.json"
     },
-    "@typescript-eslint/strict-boolean-expressions": "off",
-    "@typescript-eslint/consistent-type-definitions": "off",
-    "@typescript-eslint/comma-spacing": "off",
-    "@typescript-eslint/return-await": "off"
+    "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/comma-spacing": "off",
+        "@typescript-eslint/return-await": "off",
+        "@typescript-eslint/camelcase": "off"
+    }
 }
